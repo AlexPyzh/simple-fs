@@ -12,6 +12,6 @@ COPY /mp3 /site/mp3
 COPY /serviceImg /site/serviceImg
 
 # The default port of the application
-EXPOSE  8080
+EXPOSE  5757
 
-CMD ["http-server", "--cors", "-p8080", "/site"]
+CMD ["http-server", "--cors", "-p5757", "/site"]
